@@ -50,7 +50,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.6.0</version>
         <configuration>
-          <mainClass>ru.credit.calculator.Main</mainClass>
+          <mainClass>ru.credit.calculator.library.Main</mainClass>
         </configuration>
       </plugin>
 
