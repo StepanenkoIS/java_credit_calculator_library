@@ -12,8 +12,7 @@ public class YearMonthAdaptor extends XmlAdapter<String, YearMonth> {
     try {
       return YearMonth.parse(str);
     } catch (DateTimeParseException exception) {
-      System.out.println("date format error");
-      return YearMonth.now();
+      return null;
     }
   }
 
